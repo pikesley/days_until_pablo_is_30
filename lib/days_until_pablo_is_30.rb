@@ -15,8 +15,6 @@ module DaysUntilPabloIs30
     get '/' do
       headers 'Vary' => 'Accept'
 
-      days = (DateTime.parse('2018-07-26') - DateTime.now).to_i
-
       respond_to do |wants|
         wants.html do
           @days = days
