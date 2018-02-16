@@ -1,0 +1,22 @@
+@import 'variables';
+@import 'colours';
+@import 'fonts';
+
+@import '../../_sass/bootstrap';
+
+@import 'footer';
+//@import 'github-corner';
+
+body {
+  text-align: center;
+  color: map-get($theme-colors, primary);
+  font-size: 2em;
+}
+
+p {
+  font-family: $font-primary;
+}
+
+.big {
+  font-size: 5em;
+}
