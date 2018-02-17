@@ -5,12 +5,11 @@
 @import '../../_sass/bootstrap';
 
 @import 'footer';
-//@import 'github-corner';
 
 body {
   text-align: center;
   background-color: map-get($theme-colors, primary);
-  color: white;
+  color: map-get($theme-colors, secondary);
   font-size: 2em;
   text-shadow: 4px 4px 24px darken(map-get($theme-colors, primary), 90%);
 }
@@ -30,7 +29,7 @@ p {
   @for $i from 0 through 9 {
     .text-#{$i} {
       $value: $i * 10;
-      color: lighten(map-get($theme-colors, primary), $value * 1%);
+      color: mix(map-get($theme-colors, secondary), map-get($theme-colors, primary), $value * 1%);
       text-shadow: 4px 4px 24px darken(map-get($theme-colors, primary), $value * 1%);
     }
    $text-list: append($text-list, unquote(".text-#{$i}"), comma);

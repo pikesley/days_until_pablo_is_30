@@ -12,10 +12,12 @@ body {
   bottom: 0;
   width: 100%;
 
+  font-size: 0.2em;
+
   text-align: center;
 
   background: map-get($theme-colors, primary);
-  color: white;
+  color: map-get($theme-colors, secondary);
   height: $footer-height;
 
   ul {
