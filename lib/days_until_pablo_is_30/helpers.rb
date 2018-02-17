@@ -3,7 +3,7 @@ module DaysUntilPabloIs30
 
   module Helpers
     def days
-      (DateTime.parse('2018-07-26') - DateTime.now).to_i
+    (DateTime.parse(CONFIG['birthday'].to_s) - DateTime.now).to_i
     end
   end
 end
