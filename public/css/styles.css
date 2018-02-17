@@ -6522,4 +6522,37 @@ p {
 .big {
   font-size: 5em; }
 
+.blue {
+  color: green; }
+
+.text-0 {
+  color: #7f8487; }
+
+.text-1 {
+  color: #999da0; }
+
+.text-2 {
+  color: #b4b7b8; }
+
+.text-3 {
+  color: #ced0d1; }
+
+.text-4 {
+  color: #e8e9ea; }
+
+.text-5 {
+  color: white; }
+
+.text-6 {
+  color: white; }
+
+.text-7 {
+  color: white; }
+
+.text-8 {
+  color: white; }
+
+.text-9 {
+  color: white; }
+
 /*# sourceMappingURL=styles.css.map */

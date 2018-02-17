@@ -23,3 +23,47 @@ p {
 .big {
   font-size: 5em;
 }
+
+.blue {
+  color: green;
+}
+
+.text-0 {
+  color: lighten(map-get($theme-colors, primary), 00%);
+}
+
+.text-1 {
+  color: lighten(map-get($theme-colors, primary), 10%);
+}
+
+.text-2 {
+  color: lighten(map-get($theme-colors, primary), 20%);
+}
+
+.text-3 {
+  color: lighten(map-get($theme-colors, primary), 30%);
+}
+
+.text-4 {
+  color: lighten(map-get($theme-colors, primary), 40%);
+}
+
+.text-5 {
+  color: lighten(map-get($theme-colors, primary), 50%);
+}
+
+.text-6 {
+  color: lighten(map-get($theme-colors, primary), 60%);
+}
+
+.text-7 {
+  color: lighten(map-get($theme-colors, primary), 70%);
+}
+
+.text-8 {
+  color: lighten(map-get($theme-colors, primary), 80%);
+}
+
+.text-9 {
+  color: lighten(map-get($theme-colors, primary), 90%);
+}
