@@ -1,5 +1,5 @@
 <p>There are</p>
-<p class='big' id='days' data-days='<%= @days %>'></p>
+<p id='days' data-days='<%= @days %>'></p>
 <p>days remaining until Pablo is 30</p>
 
 <script>
@@ -9,10 +9,11 @@ $('#days').each(function() {
     countNum: countTo
   },
   {
-    duration: 5000,
-    easing:'swing',
+    duration: 8000,
+    easing:'easeOutCubic',
     step: function() {
-      $this.text(Math.floor(this.countNum))
+      val = Math.floor(this.countNum)
+      $this.text(val)
       c = 'text-' + Math.floor((this.countNum / countTo) * 10)
       $this.addClass(c)
     },

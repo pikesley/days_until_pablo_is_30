@@ -12,6 +12,7 @@ body {
   background-color: map-get($theme-colors, primary);
   color: white;
   font-size: 2em;
+  text-shadow: 4px 4px 24px darken(map-get($theme-colors, secondary), 50%);
 }
 
 p {
@@ -20,12 +21,8 @@ p {
   margin: 0;
 }
 
-.big {
+#days {
   font-size: 5em;
-}
-
-.blue {
-  color: green;
 }
 
 @mixin text-x {
@@ -34,6 +31,7 @@ p {
     .text-#{$i} {
       $value: $i * 10;
       color: lighten(map-get($theme-colors, primary), $value * 1%);
+      text-shadow: 4px 4px 24px darken(map-get($theme-colors, primary), $value * 1%);
     }
    $text-list: append($text-list, unquote(".text-#{$i}"), comma);
   }

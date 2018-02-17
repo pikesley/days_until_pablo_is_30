@@ -6512,47 +6512,55 @@ body {
   text-align: center;
   background-color: #7f8487;
   color: white;
-  font-size: 2em; }
+  font-size: 2em;
+  text-shadow: 4px 4px 24px #131517; }
 
 p {
-  font-family: "Overpass Mono";
+  font-family: "Anonymous Pro";
   padding: 0;
   margin: 0; }
 
-.big {
+#days {
   font-size: 5em; }
 
-.blue {
-  color: green; }
-
 .text-0 {
-  color: #7f8487; }
+  color: #7f8487;
+  text-shadow: 4px 4px 24px #7f8487; }
 
 .text-1 {
-  color: #999da0; }
+  color: #999da0;
+  text-shadow: 4px 4px 24px #666a6d; }
 
 .text-2 {
-  color: #b4b7b8; }
+  color: #b4b7b8;
+  text-shadow: 4px 4px 24px #4d5153; }
 
 .text-3 {
-  color: #ced0d1; }
+  color: #ced0d1;
+  text-shadow: 4px 4px 24px #353738; }
 
 .text-4 {
-  color: #e8e9ea; }
+  color: #e8e9ea;
+  text-shadow: 4px 4px 24px #1c1d1e; }
 
 .text-5 {
-  color: white; }
+  color: white;
+  text-shadow: 4px 4px 24px #030404; }
 
 .text-6 {
-  color: white; }
+  color: white;
+  text-shadow: 4px 4px 24px black; }
 
 .text-7 {
-  color: white; }
+  color: white;
+  text-shadow: 4px 4px 24px black; }
 
 .text-8 {
-  color: white; }
+  color: white;
+  text-shadow: 4px 4px 24px black; }
 
 .text-9 {
-  color: white; }
+  color: white;
+  text-shadow: 4px 4px 24px black; }
 
 /*# sourceMappingURL=styles.css.map */
