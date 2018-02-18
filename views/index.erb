@@ -4,7 +4,7 @@
 
 <script>
 $('#days').each(function() {
-  var $this = $(this), countTo = $this.attr('data-days')
+  $this = $(this), countTo = $this.attr('data-days')
   $({countNum: $this.text()}).animate({
     countNum: countTo
   },
@@ -14,7 +14,7 @@ $('#days').each(function() {
     step: function() {
       val = Math.floor(this.countNum)
       $this.text(val)
-      c = 'text-' + Math.floor((this.countNum / countTo) * 10)
+      c = 'text-' + Math.floor((this.countNum / countTo) * 100)
       $this.addClass(c)
     },
     complete: function() {

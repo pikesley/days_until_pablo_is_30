@@ -26,9 +26,9 @@ p {
 
 @mixin text-x {
   $text-list: null;
-  @for $i from 0 through 9 {
+  @for $i from 0 through 99 {
     .text-#{$i} {
-      $value: $i * 10;
+      $value: $i;
       color: mix(map-get($theme-colors, secondary), map-get($theme-colors, primary), $value * 1%);
       text-shadow: 4px 4px 24px darken(map-get($theme-colors, primary), $value * 1%);
     }

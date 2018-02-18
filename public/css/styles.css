@@ -6529,39 +6529,399 @@ p {
   text-shadow: 4px 4px 24px red; }
 
 .text-1 {
+  color: #ff0200;
+  text-shadow: 4px 4px 24px #fa0000; }
+
+.text-2 {
+  color: #ff0500;
+  text-shadow: 4px 4px 24px #f50000; }
+
+.text-3 {
+  color: #ff0700;
+  text-shadow: 4px 4px 24px #f00000; }
+
+.text-4 {
+  color: #ff0900;
+  text-shadow: 4px 4px 24px #eb0000; }
+
+.text-5 {
+  color: #ff0b00;
+  text-shadow: 4px 4px 24px #e60000; }
+
+.text-6 {
+  color: #ff0e00;
+  text-shadow: 4px 4px 24px #e00000; }
+
+.text-7 {
+  color: #ff1000;
+  text-shadow: 4px 4px 24px #db0000; }
+
+.text-8 {
+  color: #ff1200;
+  text-shadow: 4px 4px 24px #d60000; }
+
+.text-9 {
+  color: #ff1400;
+  text-shadow: 4px 4px 24px #d10000; }
+
+.text-10 {
   color: #ff1700;
   text-shadow: 4px 4px 24px #cc0000; }
 
-.text-2 {
+.text-11 {
+  color: #ff1900;
+  text-shadow: 4px 4px 24px #c70000; }
+
+.text-12 {
+  color: #ff1b00;
+  text-shadow: 4px 4px 24px #c20000; }
+
+.text-13 {
+  color: #ff1d00;
+  text-shadow: 4px 4px 24px #bd0000; }
+
+.text-14 {
+  color: #ff2000;
+  text-shadow: 4px 4px 24px #b80000; }
+
+.text-15 {
+  color: #ff2200;
+  text-shadow: 4px 4px 24px #b30000; }
+
+.text-16 {
+  color: #ff2400;
+  text-shadow: 4px 4px 24px #ad0000; }
+
+.text-17 {
+  color: #ff2600;
+  text-shadow: 4px 4px 24px #a80000; }
+
+.text-18 {
+  color: #ff2900;
+  text-shadow: 4px 4px 24px #a30000; }
+
+.text-19 {
+  color: #ff2b00;
+  text-shadow: 4px 4px 24px #9e0000; }
+
+.text-20 {
   color: #ff2d00;
   text-shadow: 4px 4px 24px #990000; }
 
-.text-3 {
+.text-21 {
+  color: #ff2f00;
+  text-shadow: 4px 4px 24px #940000; }
+
+.text-22 {
+  color: #ff3200;
+  text-shadow: 4px 4px 24px #8f0000; }
+
+.text-23 {
+  color: #ff3400;
+  text-shadow: 4px 4px 24px #8a0000; }
+
+.text-24 {
+  color: #ff3600;
+  text-shadow: 4px 4px 24px #850000; }
+
+.text-25 {
+  color: #ff3800;
+  text-shadow: 4px 4px 24px maroon; }
+
+.text-26 {
+  color: #ff3b00;
+  text-shadow: 4px 4px 24px #7a0000; }
+
+.text-27 {
+  color: #ff3d00;
+  text-shadow: 4px 4px 24px #750000; }
+
+.text-28 {
+  color: #ff3f00;
+  text-shadow: 4px 4px 24px #700000; }
+
+.text-29 {
+  color: #ff4100;
+  text-shadow: 4px 4px 24px #6b0000; }
+
+.text-30 {
   color: #ff4400;
   text-shadow: 4px 4px 24px #660000; }
 
-.text-4 {
+.text-31 {
+  color: #ff4600;
+  text-shadow: 4px 4px 24px #610000; }
+
+.text-32 {
+  color: #ff4800;
+  text-shadow: 4px 4px 24px #5c0000; }
+
+.text-33 {
+  color: #ff4a00;
+  text-shadow: 4px 4px 24px #570000; }
+
+.text-34 {
+  color: #ff4d00;
+  text-shadow: 4px 4px 24px #520000; }
+
+.text-35 {
+  color: #ff4f00;
+  text-shadow: 4px 4px 24px #4d0000; }
+
+.text-36 {
+  color: #ff5100;
+  text-shadow: 4px 4px 24px #470000; }
+
+.text-37 {
+  color: #ff5300;
+  text-shadow: 4px 4px 24px #420000; }
+
+.text-38 {
+  color: #ff5600;
+  text-shadow: 4px 4px 24px #3d0000; }
+
+.text-39 {
+  color: #ff5800;
+  text-shadow: 4px 4px 24px #380000; }
+
+.text-40 {
   color: #ff5a00;
   text-shadow: 4px 4px 24px #330000; }
 
-.text-5 {
+.text-41 {
+  color: #ff5c00;
+  text-shadow: 4px 4px 24px #2e0000; }
+
+.text-42 {
+  color: #ff5f00;
+  text-shadow: 4px 4px 24px #290000; }
+
+.text-43 {
+  color: #ff6100;
+  text-shadow: 4px 4px 24px #240000; }
+
+.text-44 {
+  color: #ff6300;
+  text-shadow: 4px 4px 24px #1f0000; }
+
+.text-45 {
+  color: #ff6500;
+  text-shadow: 4px 4px 24px #1a0000; }
+
+.text-46 {
+  color: #ff6800;
+  text-shadow: 4px 4px 24px #140000; }
+
+.text-47 {
+  color: #ff6a00;
+  text-shadow: 4px 4px 24px #0f0000; }
+
+.text-48 {
+  color: #ff6c00;
+  text-shadow: 4px 4px 24px #0a0000; }
+
+.text-49 {
+  color: #ff6e00;
+  text-shadow: 4px 4px 24px #050000; }
+
+.text-50 {
   color: #ff7100;
   text-shadow: 4px 4px 24px black; }
 
-.text-6 {
+.text-51 {
+  color: #ff7300;
+  text-shadow: 4px 4px 24px black; }
+
+.text-52 {
+  color: #ff7500;
+  text-shadow: 4px 4px 24px black; }
+
+.text-53 {
+  color: #ff7700;
+  text-shadow: 4px 4px 24px black; }
+
+.text-54 {
+  color: #ff7a00;
+  text-shadow: 4px 4px 24px black; }
+
+.text-55 {
+  color: #ff7c00;
+  text-shadow: 4px 4px 24px black; }
+
+.text-56 {
+  color: #ff7e00;
+  text-shadow: 4px 4px 24px black; }
+
+.text-57 {
+  color: #ff8000;
+  text-shadow: 4px 4px 24px black; }
+
+.text-58 {
+  color: #ff8300;
+  text-shadow: 4px 4px 24px black; }
+
+.text-59 {
+  color: #ff8500;
+  text-shadow: 4px 4px 24px black; }
+
+.text-60 {
   color: #ff8700;
   text-shadow: 4px 4px 24px black; }
 
-.text-7 {
+.text-61 {
+  color: #ff8900;
+  text-shadow: 4px 4px 24px black; }
+
+.text-62 {
+  color: darkorange;
+  text-shadow: 4px 4px 24px black; }
+
+.text-63 {
+  color: #ff8e00;
+  text-shadow: 4px 4px 24px black; }
+
+.text-64 {
+  color: #ff9000;
+  text-shadow: 4px 4px 24px black; }
+
+.text-65 {
+  color: #ff9200;
+  text-shadow: 4px 4px 24px black; }
+
+.text-66 {
+  color: #ff9500;
+  text-shadow: 4px 4px 24px black; }
+
+.text-67 {
+  color: #ff9700;
+  text-shadow: 4px 4px 24px black; }
+
+.text-68 {
+  color: #ff9900;
+  text-shadow: 4px 4px 24px black; }
+
+.text-69 {
+  color: #ff9b00;
+  text-shadow: 4px 4px 24px black; }
+
+.text-70 {
   color: #ff9e00;
   text-shadow: 4px 4px 24px black; }
 
-.text-8 {
+.text-71 {
+  color: #ffa000;
+  text-shadow: 4px 4px 24px black; }
+
+.text-72 {
+  color: #ffa200;
+  text-shadow: 4px 4px 24px black; }
+
+.text-73 {
+  color: #ffa400;
+  text-shadow: 4px 4px 24px black; }
+
+.text-74 {
+  color: #ffa700;
+  text-shadow: 4px 4px 24px black; }
+
+.text-75 {
+  color: #ffa900;
+  text-shadow: 4px 4px 24px black; }
+
+.text-76 {
+  color: #ffab00;
+  text-shadow: 4px 4px 24px black; }
+
+.text-77 {
+  color: #ffad00;
+  text-shadow: 4px 4px 24px black; }
+
+.text-78 {
+  color: #ffb000;
+  text-shadow: 4px 4px 24px black; }
+
+.text-79 {
+  color: #ffb200;
+  text-shadow: 4px 4px 24px black; }
+
+.text-80 {
   color: #ffb400;
   text-shadow: 4px 4px 24px black; }
 
-.text-9 {
+.text-81 {
+  color: #ffb600;
+  text-shadow: 4px 4px 24px black; }
+
+.text-82 {
+  color: #ffb900;
+  text-shadow: 4px 4px 24px black; }
+
+.text-83 {
+  color: #ffbb00;
+  text-shadow: 4px 4px 24px black; }
+
+.text-84 {
+  color: #ffbd00;
+  text-shadow: 4px 4px 24px black; }
+
+.text-85 {
+  color: #ffbf00;
+  text-shadow: 4px 4px 24px black; }
+
+.text-86 {
+  color: #ffc200;
+  text-shadow: 4px 4px 24px black; }
+
+.text-87 {
+  color: #ffc400;
+  text-shadow: 4px 4px 24px black; }
+
+.text-88 {
+  color: #ffc600;
+  text-shadow: 4px 4px 24px black; }
+
+.text-89 {
+  color: #ffc800;
+  text-shadow: 4px 4px 24px black; }
+
+.text-90 {
   color: #ffcb00;
+  text-shadow: 4px 4px 24px black; }
+
+.text-91 {
+  color: #ffcd00;
+  text-shadow: 4px 4px 24px black; }
+
+.text-92 {
+  color: #ffcf00;
+  text-shadow: 4px 4px 24px black; }
+
+.text-93 {
+  color: #ffd100;
+  text-shadow: 4px 4px 24px black; }
+
+.text-94 {
+  color: #ffd400;
+  text-shadow: 4px 4px 24px black; }
+
+.text-95 {
+  color: #ffd600;
+  text-shadow: 4px 4px 24px black; }
+
+.text-96 {
+  color: #ffd800;
+  text-shadow: 4px 4px 24px black; }
+
+.text-97 {
+  color: #ffda00;
+  text-shadow: 4px 4px 24px black; }
+
+.text-98 {
+  color: #ffdd00;
+  text-shadow: 4px 4px 24px black; }
+
+.text-99 {
+  color: #ffdf00;
   text-shadow: 4px 4px 24px black; }
 
 /*# sourceMappingURL=styles.css.map */
