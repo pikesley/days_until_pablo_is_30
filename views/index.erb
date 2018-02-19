@@ -16,7 +16,7 @@ $('#days').each(function() {
       val = Math.floor(this.countNum)
       $this.text(val)
       c = 'text-' + Math.floor((this.countNum / countTo) * 100)
-      $this.addClass(c)
+      $this.removeClass().addClass(c)
     },
     complete: function() {
       $this.text(this.countNum)
