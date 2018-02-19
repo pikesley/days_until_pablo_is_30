@@ -21,7 +21,7 @@ p {
 }
 
 #days {
-  font-size: 5em;
+  //font-size: 5em;
 }
 
 @mixin text-x {
@@ -31,6 +31,7 @@ p {
       $value: $i;
       color: mix(map-get($theme-colors, secondary), map-get($theme-colors, primary), $value * 1%);
       text-shadow: 4px 4px 24px darken(map-get($theme-colors, primary), $value * 1%);
+      font-size: ($value / 15) * 1em;
     }
    $text-list: append($text-list, unquote(".text-#{$i}"), comma);
   }

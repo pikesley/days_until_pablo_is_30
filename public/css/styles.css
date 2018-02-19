@@ -6521,407 +6521,504 @@ p {
   padding: 0;
   margin: 0; }
 
-#days {
-  font-size: 5em; }
-
 .text-0 {
   color: red;
-  text-shadow: 4px 4px 24px red; }
+  text-shadow: 4px 4px 24px red;
+  font-size: 0em; }
 
 .text-1 {
   color: #ff0200;
-  text-shadow: 4px 4px 24px #fa0000; }
+  text-shadow: 4px 4px 24px #fa0000;
+  font-size: 0.0666666667em; }
 
 .text-2 {
   color: #ff0500;
-  text-shadow: 4px 4px 24px #f50000; }
+  text-shadow: 4px 4px 24px #f50000;
+  font-size: 0.1333333333em; }
 
 .text-3 {
   color: #ff0700;
-  text-shadow: 4px 4px 24px #f00000; }
+  text-shadow: 4px 4px 24px #f00000;
+  font-size: 0.2em; }
 
 .text-4 {
   color: #ff0900;
-  text-shadow: 4px 4px 24px #eb0000; }
+  text-shadow: 4px 4px 24px #eb0000;
+  font-size: 0.2666666667em; }
 
 .text-5 {
   color: #ff0b00;
-  text-shadow: 4px 4px 24px #e60000; }
+  text-shadow: 4px 4px 24px #e60000;
+  font-size: 0.3333333333em; }
 
 .text-6 {
   color: #ff0e00;
-  text-shadow: 4px 4px 24px #e00000; }
+  text-shadow: 4px 4px 24px #e00000;
+  font-size: 0.4em; }
 
 .text-7 {
   color: #ff1000;
-  text-shadow: 4px 4px 24px #db0000; }
+  text-shadow: 4px 4px 24px #db0000;
+  font-size: 0.4666666667em; }
 
 .text-8 {
   color: #ff1200;
-  text-shadow: 4px 4px 24px #d60000; }
+  text-shadow: 4px 4px 24px #d60000;
+  font-size: 0.5333333333em; }
 
 .text-9 {
   color: #ff1400;
-  text-shadow: 4px 4px 24px #d10000; }
+  text-shadow: 4px 4px 24px #d10000;
+  font-size: 0.6em; }
 
 .text-10 {
   color: #ff1700;
-  text-shadow: 4px 4px 24px #cc0000; }
+  text-shadow: 4px 4px 24px #cc0000;
+  font-size: 0.6666666667em; }
 
 .text-11 {
   color: #ff1900;
-  text-shadow: 4px 4px 24px #c70000; }
+  text-shadow: 4px 4px 24px #c70000;
+  font-size: 0.7333333333em; }
 
 .text-12 {
   color: #ff1b00;
-  text-shadow: 4px 4px 24px #c20000; }
+  text-shadow: 4px 4px 24px #c20000;
+  font-size: 0.8em; }
 
 .text-13 {
   color: #ff1d00;
-  text-shadow: 4px 4px 24px #bd0000; }
+  text-shadow: 4px 4px 24px #bd0000;
+  font-size: 0.8666666667em; }
 
 .text-14 {
   color: #ff2000;
-  text-shadow: 4px 4px 24px #b80000; }
+  text-shadow: 4px 4px 24px #b80000;
+  font-size: 0.9333333333em; }
 
 .text-15 {
   color: #ff2200;
-  text-shadow: 4px 4px 24px #b30000; }
+  text-shadow: 4px 4px 24px #b30000;
+  font-size: 1em; }
 
 .text-16 {
   color: #ff2400;
-  text-shadow: 4px 4px 24px #ad0000; }
+  text-shadow: 4px 4px 24px #ad0000;
+  font-size: 1.0666666667em; }
 
 .text-17 {
   color: #ff2600;
-  text-shadow: 4px 4px 24px #a80000; }
+  text-shadow: 4px 4px 24px #a80000;
+  font-size: 1.1333333333em; }
 
 .text-18 {
   color: #ff2900;
-  text-shadow: 4px 4px 24px #a30000; }
+  text-shadow: 4px 4px 24px #a30000;
+  font-size: 1.2em; }
 
 .text-19 {
   color: #ff2b00;
-  text-shadow: 4px 4px 24px #9e0000; }
+  text-shadow: 4px 4px 24px #9e0000;
+  font-size: 1.2666666667em; }
 
 .text-20 {
   color: #ff2d00;
-  text-shadow: 4px 4px 24px #990000; }
+  text-shadow: 4px 4px 24px #990000;
+  font-size: 1.3333333333em; }
 
 .text-21 {
   color: #ff2f00;
-  text-shadow: 4px 4px 24px #940000; }
+  text-shadow: 4px 4px 24px #940000;
+  font-size: 1.4em; }
 
 .text-22 {
   color: #ff3200;
-  text-shadow: 4px 4px 24px #8f0000; }
+  text-shadow: 4px 4px 24px #8f0000;
+  font-size: 1.4666666667em; }
 
 .text-23 {
   color: #ff3400;
-  text-shadow: 4px 4px 24px #8a0000; }
+  text-shadow: 4px 4px 24px #8a0000;
+  font-size: 1.5333333333em; }
 
 .text-24 {
   color: #ff3600;
-  text-shadow: 4px 4px 24px #850000; }
+  text-shadow: 4px 4px 24px #850000;
+  font-size: 1.6em; }
 
 .text-25 {
   color: #ff3800;
-  text-shadow: 4px 4px 24px maroon; }
+  text-shadow: 4px 4px 24px maroon;
+  font-size: 1.6666666667em; }
 
 .text-26 {
   color: #ff3b00;
-  text-shadow: 4px 4px 24px #7a0000; }
+  text-shadow: 4px 4px 24px #7a0000;
+  font-size: 1.7333333333em; }
 
 .text-27 {
   color: #ff3d00;
-  text-shadow: 4px 4px 24px #750000; }
+  text-shadow: 4px 4px 24px #750000;
+  font-size: 1.8em; }
 
 .text-28 {
   color: #ff3f00;
-  text-shadow: 4px 4px 24px #700000; }
+  text-shadow: 4px 4px 24px #700000;
+  font-size: 1.8666666667em; }
 
 .text-29 {
   color: #ff4100;
-  text-shadow: 4px 4px 24px #6b0000; }
+  text-shadow: 4px 4px 24px #6b0000;
+  font-size: 1.9333333333em; }
 
 .text-30 {
   color: #ff4400;
-  text-shadow: 4px 4px 24px #660000; }
+  text-shadow: 4px 4px 24px #660000;
+  font-size: 2em; }
 
 .text-31 {
   color: #ff4600;
-  text-shadow: 4px 4px 24px #610000; }
+  text-shadow: 4px 4px 24px #610000;
+  font-size: 2.0666666667em; }
 
 .text-32 {
   color: #ff4800;
-  text-shadow: 4px 4px 24px #5c0000; }
+  text-shadow: 4px 4px 24px #5c0000;
+  font-size: 2.1333333333em; }
 
 .text-33 {
   color: #ff4a00;
-  text-shadow: 4px 4px 24px #570000; }
+  text-shadow: 4px 4px 24px #570000;
+  font-size: 2.2em; }
 
 .text-34 {
   color: #ff4d00;
-  text-shadow: 4px 4px 24px #520000; }
+  text-shadow: 4px 4px 24px #520000;
+  font-size: 2.2666666667em; }
 
 .text-35 {
   color: #ff4f00;
-  text-shadow: 4px 4px 24px #4d0000; }
+  text-shadow: 4px 4px 24px #4d0000;
+  font-size: 2.3333333333em; }
 
 .text-36 {
   color: #ff5100;
-  text-shadow: 4px 4px 24px #470000; }
+  text-shadow: 4px 4px 24px #470000;
+  font-size: 2.4em; }
 
 .text-37 {
   color: #ff5300;
-  text-shadow: 4px 4px 24px #420000; }
+  text-shadow: 4px 4px 24px #420000;
+  font-size: 2.4666666667em; }
 
 .text-38 {
   color: #ff5600;
-  text-shadow: 4px 4px 24px #3d0000; }
+  text-shadow: 4px 4px 24px #3d0000;
+  font-size: 2.5333333333em; }
 
 .text-39 {
   color: #ff5800;
-  text-shadow: 4px 4px 24px #380000; }
+  text-shadow: 4px 4px 24px #380000;
+  font-size: 2.6em; }
 
 .text-40 {
   color: #ff5a00;
-  text-shadow: 4px 4px 24px #330000; }
+  text-shadow: 4px 4px 24px #330000;
+  font-size: 2.6666666667em; }
 
 .text-41 {
   color: #ff5c00;
-  text-shadow: 4px 4px 24px #2e0000; }
+  text-shadow: 4px 4px 24px #2e0000;
+  font-size: 2.7333333333em; }
 
 .text-42 {
   color: #ff5f00;
-  text-shadow: 4px 4px 24px #290000; }
+  text-shadow: 4px 4px 24px #290000;
+  font-size: 2.8em; }
 
 .text-43 {
   color: #ff6100;
-  text-shadow: 4px 4px 24px #240000; }
+  text-shadow: 4px 4px 24px #240000;
+  font-size: 2.8666666667em; }
 
 .text-44 {
   color: #ff6300;
-  text-shadow: 4px 4px 24px #1f0000; }
+  text-shadow: 4px 4px 24px #1f0000;
+  font-size: 2.9333333333em; }
 
 .text-45 {
   color: #ff6500;
-  text-shadow: 4px 4px 24px #1a0000; }
+  text-shadow: 4px 4px 24px #1a0000;
+  font-size: 3em; }
 
 .text-46 {
   color: #ff6800;
-  text-shadow: 4px 4px 24px #140000; }
+  text-shadow: 4px 4px 24px #140000;
+  font-size: 3.0666666667em; }
 
 .text-47 {
   color: #ff6a00;
-  text-shadow: 4px 4px 24px #0f0000; }
+  text-shadow: 4px 4px 24px #0f0000;
+  font-size: 3.1333333333em; }
 
 .text-48 {
   color: #ff6c00;
-  text-shadow: 4px 4px 24px #0a0000; }
+  text-shadow: 4px 4px 24px #0a0000;
+  font-size: 3.2em; }
 
 .text-49 {
   color: #ff6e00;
-  text-shadow: 4px 4px 24px #050000; }
+  text-shadow: 4px 4px 24px #050000;
+  font-size: 3.2666666667em; }
 
 .text-50 {
   color: #ff7100;
-  text-shadow: 4px 4px 24px black; }
+  text-shadow: 4px 4px 24px black;
+  font-size: 3.3333333333em; }
 
 .text-51 {
   color: #ff7300;
-  text-shadow: 4px 4px 24px black; }
+  text-shadow: 4px 4px 24px black;
+  font-size: 3.4em; }
 
 .text-52 {
   color: #ff7500;
-  text-shadow: 4px 4px 24px black; }
+  text-shadow: 4px 4px 24px black;
+  font-size: 3.4666666667em; }
 
 .text-53 {
   color: #ff7700;
-  text-shadow: 4px 4px 24px black; }
+  text-shadow: 4px 4px 24px black;
+  font-size: 3.5333333333em; }
 
 .text-54 {
   color: #ff7a00;
-  text-shadow: 4px 4px 24px black; }
+  text-shadow: 4px 4px 24px black;
+  font-size: 3.6em; }
 
 .text-55 {
   color: #ff7c00;
-  text-shadow: 4px 4px 24px black; }
+  text-shadow: 4px 4px 24px black;
+  font-size: 3.6666666667em; }
 
 .text-56 {
   color: #ff7e00;
-  text-shadow: 4px 4px 24px black; }
+  text-shadow: 4px 4px 24px black;
+  font-size: 3.7333333333em; }
 
 .text-57 {
   color: #ff8000;
-  text-shadow: 4px 4px 24px black; }
+  text-shadow: 4px 4px 24px black;
+  font-size: 3.8em; }
 
 .text-58 {
   color: #ff8300;
-  text-shadow: 4px 4px 24px black; }
+  text-shadow: 4px 4px 24px black;
+  font-size: 3.8666666667em; }
 
 .text-59 {
   color: #ff8500;
-  text-shadow: 4px 4px 24px black; }
+  text-shadow: 4px 4px 24px black;
+  font-size: 3.9333333333em; }
 
 .text-60 {
   color: #ff8700;
-  text-shadow: 4px 4px 24px black; }
+  text-shadow: 4px 4px 24px black;
+  font-size: 4em; }
 
 .text-61 {
   color: #ff8900;
-  text-shadow: 4px 4px 24px black; }
+  text-shadow: 4px 4px 24px black;
+  font-size: 4.0666666667em; }
 
 .text-62 {
   color: darkorange;
-  text-shadow: 4px 4px 24px black; }
+  text-shadow: 4px 4px 24px black;
+  font-size: 4.1333333333em; }
 
 .text-63 {
   color: #ff8e00;
-  text-shadow: 4px 4px 24px black; }
+  text-shadow: 4px 4px 24px black;
+  font-size: 4.2em; }
 
 .text-64 {
   color: #ff9000;
-  text-shadow: 4px 4px 24px black; }
+  text-shadow: 4px 4px 24px black;
+  font-size: 4.2666666667em; }
 
 .text-65 {
   color: #ff9200;
-  text-shadow: 4px 4px 24px black; }
+  text-shadow: 4px 4px 24px black;
+  font-size: 4.3333333333em; }
 
 .text-66 {
   color: #ff9500;
-  text-shadow: 4px 4px 24px black; }
+  text-shadow: 4px 4px 24px black;
+  font-size: 4.4em; }
 
 .text-67 {
   color: #ff9700;
-  text-shadow: 4px 4px 24px black; }
+  text-shadow: 4px 4px 24px black;
+  font-size: 4.4666666667em; }
 
 .text-68 {
   color: #ff9900;
-  text-shadow: 4px 4px 24px black; }
+  text-shadow: 4px 4px 24px black;
+  font-size: 4.5333333333em; }
 
 .text-69 {
   color: #ff9b00;
-  text-shadow: 4px 4px 24px black; }
+  text-shadow: 4px 4px 24px black;
+  font-size: 4.6em; }
 
 .text-70 {
   color: #ff9e00;
-  text-shadow: 4px 4px 24px black; }
+  text-shadow: 4px 4px 24px black;
+  font-size: 4.6666666667em; }
 
 .text-71 {
   color: #ffa000;
-  text-shadow: 4px 4px 24px black; }
+  text-shadow: 4px 4px 24px black;
+  font-size: 4.7333333333em; }
 
 .text-72 {
   color: #ffa200;
-  text-shadow: 4px 4px 24px black; }
+  text-shadow: 4px 4px 24px black;
+  font-size: 4.8em; }
 
 .text-73 {
   color: #ffa400;
-  text-shadow: 4px 4px 24px black; }
+  text-shadow: 4px 4px 24px black;
+  font-size: 4.8666666667em; }
 
 .text-74 {
   color: #ffa700;
-  text-shadow: 4px 4px 24px black; }
+  text-shadow: 4px 4px 24px black;
+  font-size: 4.9333333333em; }
 
 .text-75 {
   color: #ffa900;
-  text-shadow: 4px 4px 24px black; }
+  text-shadow: 4px 4px 24px black;
+  font-size: 5em; }
 
 .text-76 {
   color: #ffab00;
-  text-shadow: 4px 4px 24px black; }
+  text-shadow: 4px 4px 24px black;
+  font-size: 5.0666666667em; }
 
 .text-77 {
   color: #ffad00;
-  text-shadow: 4px 4px 24px black; }
+  text-shadow: 4px 4px 24px black;
+  font-size: 5.1333333333em; }
 
 .text-78 {
   color: #ffb000;
-  text-shadow: 4px 4px 24px black; }
+  text-shadow: 4px 4px 24px black;
+  font-size: 5.2em; }
 
 .text-79 {
   color: #ffb200;
-  text-shadow: 4px 4px 24px black; }
+  text-shadow: 4px 4px 24px black;
+  font-size: 5.2666666667em; }
 
 .text-80 {
   color: #ffb400;
-  text-shadow: 4px 4px 24px black; }
+  text-shadow: 4px 4px 24px black;
+  font-size: 5.3333333333em; }
 
 .text-81 {
   color: #ffb600;
-  text-shadow: 4px 4px 24px black; }
+  text-shadow: 4px 4px 24px black;
+  font-size: 5.4em; }
 
 .text-82 {
   color: #ffb900;
-  text-shadow: 4px 4px 24px black; }
+  text-shadow: 4px 4px 24px black;
+  font-size: 5.4666666667em; }
 
 .text-83 {
   color: #ffbb00;
-  text-shadow: 4px 4px 24px black; }
+  text-shadow: 4px 4px 24px black;
+  font-size: 5.5333333333em; }
 
 .text-84 {
   color: #ffbd00;
-  text-shadow: 4px 4px 24px black; }
+  text-shadow: 4px 4px 24px black;
+  font-size: 5.6em; }
 
 .text-85 {
   color: #ffbf00;
-  text-shadow: 4px 4px 24px black; }
+  text-shadow: 4px 4px 24px black;
+  font-size: 5.6666666667em; }
 
 .text-86 {
   color: #ffc200;
-  text-shadow: 4px 4px 24px black; }
+  text-shadow: 4px 4px 24px black;
+  font-size: 5.7333333333em; }
 
 .text-87 {
   color: #ffc400;
-  text-shadow: 4px 4px 24px black; }
+  text-shadow: 4px 4px 24px black;
+  font-size: 5.8em; }
 
 .text-88 {
   color: #ffc600;
-  text-shadow: 4px 4px 24px black; }
+  text-shadow: 4px 4px 24px black;
+  font-size: 5.8666666667em; }
 
 .text-89 {
   color: #ffc800;
-  text-shadow: 4px 4px 24px black; }
+  text-shadow: 4px 4px 24px black;
+  font-size: 5.9333333333em; }
 
 .text-90 {
   color: #ffcb00;
-  text-shadow: 4px 4px 24px black; }
+  text-shadow: 4px 4px 24px black;
+  font-size: 6em; }
 
 .text-91 {
   color: #ffcd00;
-  text-shadow: 4px 4px 24px black; }
+  text-shadow: 4px 4px 24px black;
+  font-size: 6.0666666667em; }
 
 .text-92 {
   color: #ffcf00;
-  text-shadow: 4px 4px 24px black; }
+  text-shadow: 4px 4px 24px black;
+  font-size: 6.1333333333em; }
 
 .text-93 {
   color: #ffd100;
-  text-shadow: 4px 4px 24px black; }
+  text-shadow: 4px 4px 24px black;
+  font-size: 6.2em; }
 
 .text-94 {
   color: #ffd400;
-  text-shadow: 4px 4px 24px black; }
+  text-shadow: 4px 4px 24px black;
+  font-size: 6.2666666667em; }
 
 .text-95 {
   color: #ffd600;
-  text-shadow: 4px 4px 24px black; }
+  text-shadow: 4px 4px 24px black;
+  font-size: 6.3333333333em; }
 
 .text-96 {
   color: #ffd800;
-  text-shadow: 4px 4px 24px black; }
+  text-shadow: 4px 4px 24px black;
+  font-size: 6.4em; }
 
 .text-97 {
   color: #ffda00;
-  text-shadow: 4px 4px 24px black; }
+  text-shadow: 4px 4px 24px black;
+  font-size: 6.4666666667em; }
 
 .text-98 {
   color: #ffdd00;
-  text-shadow: 4px 4px 24px black; }
+  text-shadow: 4px 4px 24px black;
+  font-size: 6.5333333333em; }
 
 .text-99 {
   color: #ffdf00;
-  text-shadow: 4px 4px 24px black; }
+  text-shadow: 4px 4px 24px black;
+  font-size: 6.6em; }
 
 /*# sourceMappingURL=styles.css.map */

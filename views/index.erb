@@ -1,8 +1,9 @@
 <p>There are</p>
 <p id='days' data-days='<%= @days %>'></p>
-<p>days remaining until Pablo is 30</p>
+<p id='tagline'>days remaining until Pablo is 30</p>
 
 <script>
+$('#tagline').hide()
 $('#days').each(function() {
   $this = $(this), countTo = $this.attr('data-days')
   $({countNum: $this.text()}).animate({
@@ -19,6 +20,7 @@ $('#days').each(function() {
     },
     complete: function() {
       $this.text(this.countNum)
+      $('#tagline').show()
     }
   })
 })
