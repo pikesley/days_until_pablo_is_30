@@ -1,11 +1,19 @@
-<p>There are</p>
+<% if @days >= 0 %>
+  <p>There are</p>
+<% end %>
 <p id='days' data-days='<%= @days %>'></p>
-<p id='tagline'>days remaining until Pablo is 30</p>
+<p id='tagline'>days
+<% if @days >= 0 %>
+  remaining until
+<% else %>
+  have passed since
+<% end %>
+  <%= @event %></p>
 
 <script>
 $('#tagline').hide()
 $('#days').each(function() {
-  $this = $(this), countTo = $this.attr('data-days')
+  $this = $(this), countTo = Math.abs($this.attr('data-days'))
   $({countNum: $this.text()}).animate({
     countNum: countTo
   },

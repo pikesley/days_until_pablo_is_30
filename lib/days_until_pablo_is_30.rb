@@ -17,7 +17,12 @@ module DaysUntilPabloIs30
 
       respond_to do |wants|
         wants.html do
-          @days = days
+          end_date = CONFIG['birthday'].to_s
+          end_date = params[:date] if params[:date]
+          @days = days end_date
+
+          @event = 'Pablo is 30'
+          @event = params[:event] if params[:event]
           erb :index
         end
 
