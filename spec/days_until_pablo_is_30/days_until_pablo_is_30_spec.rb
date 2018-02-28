@@ -5,7 +5,8 @@ module DaysUntilPabloIs30
     it 'serves HTML' do
       get '/'
       expect(last_response).to be_ok
-      expect(last_response.body).to match /days remaining until Pablo is 30/
+      expect(last_response.body).to match /remaining until/
+      expect(last_response.body).to match /Pablo is 30/
     end
 
     it 'serves JSON' do
