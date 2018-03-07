@@ -15,19 +15,21 @@ module DaysUntilPabloIs30
     get '/' do
       headers 'Vary' => 'Accept'
 
+      end_date = CONFIG['birthday'].to_s
+      end_date = params[:date] if params[:date]
+      @days = days end_date
+
+      @event = 'Pablo is 30'
+      @event = params[:event] if params[:event]
+
       respond_to do |wants|
         wants.html do
-          end_date = CONFIG['birthday'].to_s
-          end_date = params[:date] if params[:date]
-          @days = days end_date
-
-          @event = 'Pablo is 30'
-          @event = params[:event] if params[:event]
           erb :index
         end
 
         wants.json do
           {
+            event: @event,
             days: days
           }.to_json
         end
