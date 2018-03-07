@@ -21,7 +21,6 @@ module DaysUntilPabloIs30
 
       @event = 'Pablo is 30'
       @event = params[:event] if params[:event]
-
       respond_to do |wants|
         wants.html do
           erb :index
@@ -30,7 +29,7 @@ module DaysUntilPabloIs30
         wants.json do
           {
             event: @event,
-            days: days
+            days: @days
           }.to_json
         end
       end
